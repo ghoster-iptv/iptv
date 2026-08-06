@@ -7,7 +7,9 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
 #EXTINF:-1,Суббота
 http://217.114.191.150/Subbota/index.m3u8
-#EXTINF:-1,Муз ТВ
+#EXTINF:-1,RU.TV
+https://stream1.cinerama.uz/1202/tracks-v1a1/mono.m3u8
+#EXTINF:-1 catchup-source="?offset=-${offset}&utcstart=${timestamp}" catchup-days="3" catchup="append",Муз ТВ
 https://stream1.cinerama.uz/1200/tracks-v1a1/mono.m3u8
 #EXTINF:-1,НТВ
 https://cdn.ntv.ru/ntv0/playlist.m3u8
