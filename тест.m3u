@@ -23,5 +23,31 @@ https://cdn.ntv.ru/th_pravo/playlist.m3u8
 https://cdn.ntv.ru/th_style/playlist.m3u8
 #EXTINF:-1,Неизвестная Россия
 https://cdn.ntv.ru/unknown_russia/playlist.m3u8
-#EXTINF:-1,первый
-htttps://cdn.ntv.netjrk
+#EXTM3U
+#EXTINF:-1,Пятница!
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
+#EXTINF:-1,СТС
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
+#EXTINF:-1,СТС Love
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
+#EXTINF:-1,Суббота
+http://217.114.191.150/Subbota/index.m3u8
+#EXTINF:-1,RU.TV
+https://stream1.cinerama.uz/1202/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Муз ТВ
+https://stream1.cinerama.uz/1200/tracks-v1a1/mono.m3u8
+#EXTINF:-1,НТВ
+https://cdn.ntv.ru/ntv0/playlist.m3u8
+#EXTINF:-1,НТВ Хит
+https://cdn.ntv.ru/th_hit/playlist.m3u8
+#EXTINF:-1,НТВ Сериал
+https://cdn.ntv.ru/th_serial/playlist.m3u8
+#EXTINF:-1,НТВ Право
+https://cdn.ntv.ru/th_pravo/playlist.m3u8
+#EXTINF:-1,НТВ Стиль
+https://cdn.ntv.ru/th_style/playlist.m3u8
+#EXTINF:-1,Неизвестная Россия
+https://cdn.ntv.ru/unknown_russia/playlist.m3u8
+#EXTINF:-1,отв
+http://a0925677.xsph.ru/hls/zabava/region/EKT/CH_OTVHD.m3u8
+
