@@ -11,3 +11,5 @@ https://stream.smotrim.ru/hls/fasttv01/playlist_2.m3u8
 https://stream.smotrim.ru/hls/fasttv02/playlist_3.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Prazdnik.ru@SD",Смотрим 100% Праздник
 https://stream.smotrim.ru/hls/fasttv04/playlist_3.m3u8
+#EXTINF:-1 tvg-id="perec-int" tvg-logo="https://iptvx.one/picons/perec.png",Перец
+http://158.101.222.193:88/georgia_play.php?id=perec
