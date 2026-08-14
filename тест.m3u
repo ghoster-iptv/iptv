@@ -9,8 +9,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
 http://217.114.191.150/Subbota/index.m3u8
 #EXTINF:-1,RU.TV
 https://stream1.cinerama.uz/1202/tracks-v1a1/mono.m3u8
-#EXTINF:-1 http-user-agent="ExoPlayer2/2.37" catchup-source="?offset=-${offset}&utcstart=${timestamp}" catchup-days="3" catchup="append",Муз ТВ
-#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#EXTINF:-1,Муз ТВ
 https://stream1.cinerama.uz/1200/tracks-v1a1/mono.m3u8
 #EXTINF:-1,НТВ
 https://cdn.ntv.ru/ntv0/playlist.m3u8
