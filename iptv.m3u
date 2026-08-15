@@ -31,3 +31,5 @@ https://cdn.ntv.ru/th_hit/playlist.m3u8
 http://dmi3y-tv.online/hls/DVB-T2/CH_STS.m3u8
 #EXTINF:-1,Домашний
 http://dmi3y-tv.online/hls/DVB-T2/CH_DOMASHNIY.m3u8
+#EXTINF:-1,СТС Love
+http://dmi3y-tv.online/hls/zabava/CH_STSLOVE.m3u8
