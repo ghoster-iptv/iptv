@@ -39,3 +39,5 @@ http://dmi3y-tv.online/hls/CH_STSKIDS.m3u8
 http://158.101.222.193:88/georgia_play.php?id=perec
 #EXTINF:-1,NICKELODEON
 http://dmi3y-tv.online/hls/CH_NICKELODEON.m3u8
+#EXTINF:-1,Nick Jr
+http://dmi3y-tv.online/hls/CH_NICKJR.m3u8
