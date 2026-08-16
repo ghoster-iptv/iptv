@@ -45,3 +45,5 @@ http://dmi3y-tv.online/hls/CH_NICKJR.m3u8
 http://dmi3y-tv.online/hls/CH_NICKTOONS.m3u8
 #EXTINF:-1,МУЗ ТВ
 http://dmi3y-tv.online/hls/DVB-T2/CH_MUZTV.m3u8
+#EXTINF:-1, Ю
+https://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
