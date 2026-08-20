@@ -1,0 +1,45 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="pervy-pl2" group-title="Екатеринбург" channelId="1" tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg",Первый канал (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_1TV_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="rossia1-pl2" group-title="Екатеринбург" tvg-logo="https://i.postimg.cc/kXvbsgCP/89e442b0f789e5cabcf47b0b9c549720.png",Россия 1 - ГТРК Урал (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ROSSIA1_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="match-tv" group-title="Екатеринбург" channelId="4" tvg-logo="http://ex.iptvin.ru/pic/2/tvico-n52.png" logo="http://overlay.iptvin.ru/epg/PIC/1_0_16_3EA_A_70_1680000_0_0_0.png",Матч! (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_MATCHTV_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="ntv-pl2" group-title="Екатеринбург" channelId="6" tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/ntv.jpg" logo="http://overlay.iptvin.ru/epg/PIC/%D0%9D%D0%A2%D0%92.png",НТВ (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_NTV_URAL_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="5kanal-ru-pl2" group-title="Екатеринбург" channelId="7" tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/5_channel.jpg" logo="http://overlay.iptvin.ru/epg/PIC/1_0_16_3EB_A_70_1680000_0_0_0.png",Пятый канал (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_5TV_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="kultura-pl2" group-title="Екатеринбург" channelId="5" tvg-logo="https://i.postimg.cc/pL0nNcy0/e4c7a5238a07abf9f03cff9cced65b83.png" logo="http://ex.iptvin.ru/pic/1/15.jpg",Россия К (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_ROSSIAK_URAL_EKT/variant.m3u8
+#EXTINF:-1 channelId="10" tvg-id="rossia-24" tvg-logo="https://i.postimg.cc/mD9cHbjq/3e1f25f1f3ab896ac7b564623369ae42.png" logo="http://ex.iptvin.ru/pic/1/24.jpg" group-title="Екатеринбург",Россия 24 - ГТРК Урал (Екатернбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_ROSSIA24_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="karusel-pl2" group-title="Екатеринбург" channelId="20" tvg-logo="http://only4.tv/ch/822.png" logo="http://overlay.iptvin.ru/epg/PIC/1_0_16_336_8_70_168AFFC_0_0_0.png",Карусель (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_KARUSEL_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="otr-pl2" group-title="Екатеринбург",ОТР - ОТВ (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_OTR_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="tvcentr-pl2" group-title="Екатеринбург" channelId="13" tvg-logo="https://i.postimg.cc/BQXHps5z/ab8c1792aec7a49953627fe997774bb9.png" logo="http://overlay.iptvin.ru/epg/PIC/TVCENTR.png",ТВ Центр (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TVC_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="rentv-pl2" group-title="Екатеринбург" channelId="11" tvg-logo="http://ex.iptvin.ru/pic/2/ren-logo.jpg" logo="https://i.postimg.cc/4dWqkhrk/6900abad5b72092009961dfa20d42abc.png",РЕН ТВ (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RENTV_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="spas-pl2" group-title="Екатеринбург" channelId="244" tvg-logo="https://www.telenettv.ru/img/channel-list/logo/mult2/2.jpg" logo="http://overlay.iptvin.ru/epg/PIC/1_0_16_3EF_A_70_1680000_0_0_0.png",Спас (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_SPAS_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="sts-pl2" group-title="Екатеринбург" channelId="12" tvg-logo="http://ex.iptvin.ru/pic/2/ctc-logo-01.jpg" logo="https://chas.tv/img/channel/sts.png",СТС (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STS_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="domashny-pl2" group-title="Екатеринбург" channelId="942721013670" tvg-logo="http://ex.iptvin.ru/pic/2/014-domashniy-1.jpg" logo="http://overlay.iptvin.ru/epg/PIC/1_0_16_44E_B_70_1680000_0_0_0.png" channelId="942721013650" channelId="943063773944",Домашний (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_DOMASHNY_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="tv3-ru-pl2" group-title="Екатеринбург" channelId="8" tvg-logo="https://i.postimg.cc/CKdmB1wL/4527286dada5083b83bb0d03fabfa5ae.png" logo="https://i.postimg.cc/vHMh7XGK/0445f903c7bc8f136486a8cefd534321.png",ТВ3 (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TV3_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="piatnica-pl2" group-title="Екатеринбург" channelId="26" tvg-logo="https://i.postimg.cc/7YGX6SRb/16638cc3be4acfe210849f8a64251ce1.png" logo="http://ex.iptvin.ru/pic/2/Pyatnica-220x132-tr.png",Пятница (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_FRIDAY_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="zvezda-pl2" group-title="Екатеринбург" channelId="17" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/zvezda_telekanal2.jpeg" logo="http://ex.iptvin.ru/pic/2/zvezda.png",Звезда (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_ZVEZDA_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="mir-pl2" group-title="Екатеринбург" channelId="138" tvg-logo="https://i.postimg.cc/3xh96X00/bb0fe67f7ce64c04706db96b2eccdd2e.png" logo="https://i.postimg.cc/X7dQQHq0/a45aed909a51d78c8119320ae6c356ae.png",Мир (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_MIR_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="tnt-pl2" group-title="Екатеринбург" channelId="16" tvg-logo="http://ex.iptvin.ru/pic/2/logo-tnt-s.jpg" logo="http://overlay.iptvin.ru/epg/PIC/1_0_16_527_D_70_1680000_0_0_0.png",ТНТ (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TNT_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="muztv-pl2" group-title="Екатеринбург" channelId="136" tvg-logo="http://ex.iptvin.ru/pic/2/25a360b6fee73e109c13d9cb87be8500.png" logo="http://ex.iptvin.ru/pic/2/39cf8ffa0c8c658be1d5ed50c0fd61be.png",Муз ТВ (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_MUZTV_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="otv-eburg" group-title="Екатеринбург",ОТВ (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="4kanal-piatnica" group-title="Екатеринбург" channelId="-1" tvg-logo="https://www.channel4.ru/mobile-app/static/app-logo.png" logo="https://tvnews.by/uploads/posts/2015-04/1427883389_4channel.png",4 канал (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_4KANAL/variant.m3u8
