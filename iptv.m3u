@@ -49,3 +49,6 @@ http://dmi3y-tv.online/hls/DVB-T2/CH_MUZTV.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
 #EXTINF:-1, Солнце
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
+#EXTINF:-1 group-title="Lime (VPN 🇷🇺)" tvg-logo="https://mbmh5s36ok.a.trbcdn.net/572aecd6-static/channel/13735/logo_256_1709794858.png", Соловьев Live
+#EXTVLCOPT:http-user-agent={"platform":"android","app":"limehd.ru.ctvshka","version_name":"5.8.0","version_code":"580","sdk":"34","name":"Xiaomi+13+Ultra","device_id":"a7f8e9d1c2b3a4f5","is_huawei":"0"}
+https://mhd116.iptv2022.com/x/Iky1OXni9u4OZRGKK1YBUQ,1787597250/streaming/solovyevlive/324/1/index.m3u8
