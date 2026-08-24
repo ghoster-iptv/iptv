@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="pervy-pl2" channelId="1" tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg",Первый канал (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_1TV_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="rossia1-pl2" tvg-logo="https://i.postimg.cc/kXvbsgCP/89e442b0f789e5cabcf47b0b9c549720.png",Россия 1 - ГТРК Урал (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ROSSIA1_EKT/variant.m3u8
