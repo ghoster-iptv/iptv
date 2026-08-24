@@ -3,3 +3,5 @@
 https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_1TV_EKT/variant.m3u8
 #EXTINF:-1 tvg-id="rossia1-pl2" tvg-logo="https://i.postimg.cc/kXvbsgCP/89e442b0f789e5cabcf47b0b9c549720.png",Россия 1 - ГТРК Урал (Екатеринбург - Свердловская область)
 https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ROSSIA1_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="karusel-pl2" channelId="20" tvg-logo="http://only4.tv/ch/822.png" logo="http://overlay.iptvin.ru/epg/PIC/1_0_16_336_8_70_168AFFC_0_0_0.png",Карусель (Екатеринбург - Свердловская область)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_KARUSEL_EKT/variant.m3u8
