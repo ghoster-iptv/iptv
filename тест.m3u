@@ -25,3 +25,5 @@ https://cdn.ntv.ru/th_style/playlist.m3u8
 https://cdn.ntv.ru/unknown_russia/playlist.m3u8
 #EXTINF:-1,Мосфильм Золотая коллекция
 http://stream.mcquack.net/369/index.m3u8
+#EXTINF:-1, тест канал
+https://github.com/ghoster-iptv/iptv/raw/refs/heads/main/341998418.mp4
