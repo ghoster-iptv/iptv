@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Заставка «Click»</title>
+<style>
+  {margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%;overflow:hidden;background:#e83c00;
+            font-family:"Arial Black",Arial,Helvetica,sans-serif}
+
+  .stage{
+    position:relative;width:100vw;height:100vh;overflow:hidden;
+    display:flex;align-items:center;justify-content:center;
+    background:radial-gradient(125% 105% at 50% 115%,
+               #ffc46b 0%, #ff8a10 34%, #ff6000 68%, #e63a00 100%);
+  }
+
+  / мягкое дышащее свечение /
+  .glow{
+    position:absolute;inset:-20%;z-index:0;pointer-events:none;
+    background:radial-gradient(45% 45% at 50% 52%,
+               rgba(255,255,255,.34) 0%, rgba(255,255,255,0) 70%);
+    animation:breathe 3.2s ease-in-out infinite;
+  }
+  @keyframes breathe{
+    0%,100%{opacity:.55;transform:scale(1)}
+    50%{opacity:1;transform:scale(1.14)}
+  }
+
+  .vignette{
+    position:absolute;inset:0;z-index:1;pointer-events:none;
+    background:radial-gradient(78% 68% at 50% 50%,
+               rgba(0,0,0,0) 38%, rgba(120,20,0,.55) 100%);
+  }
+
+  / ---------- контент ---------- /
+  .content{position:relative;z-index:2;display:flex;flex-direction:column;
+           align-items:center}
+  .run .content{animation:fadeOut .8s ease 5.7s forwards}
+  @keyframes fadeOut{to{opacity:0;transform:scale(1.04)}}
+
+  .logo{
+    display:flex;gap:clamp(1px,.4vw,8px);
+    font-size:clamp(52px,16vw,220px);line-height:1;font-weight:900;
+    color:#fff;letter-spacing:.01em;
+    text-shadow:0 0 40px rgba(255,255,255,.45),
+                0 10px 40px rgba(150,40,0,.45);
+  }
+  .logo span{display:inline-block;opacity:0;
+             transform:translateY(.6em) scale(.8);filter:blur(16px)}
+  .run .logo span{animation:letterIn .85s cubic-bezier(.16,.9,.24,1) forwards}
+  .run .logo span:nth-child(1){animation-delay:1.20s}
+  .run .logo span:nth-child(2){animation-delay:1.27s}
+  .run .logo span:nth-child(3){animation-delay:1.34s}
+  .run .logo span:nth-child(4){animation-delay:1.41s}
+  .run .logo span:nth-child(5){animation-delay:1.48s}
+  @keyframes letterIn{
+    0%{opacity:0;transform:translateY(.6em) scale(.8);filter:blur(16px)}
+    62%{opacity:1;filter:blur(0)}
+    100%{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}
+  }
+
+  .divider{
+    height:clamp(4px,.7vw,8px);width:0;border-radius:99px;
+    margin-top:clamp(16px,3vh,36px);
+    background:#fff;box-shadow:0 0 26px rgba(255,255,255,.6);
+  }
+  .run .divider{animation:grow .8s cubic-bezier(.2,.85,.2,1) 2.15s forwards}
+  @keyframes grow{to{width:min(52vw,760px)}}
+
+  .subtitle{
+    margin-top:clamp(12px,2.4vh,26px);
+    font-family:Arial,Helvetica,sans-serif;font-weight:700;
+    font-size:clamp(11px,1.6vw,21px);
+    letter-spacing:.64em;text-transform:uppercase;padding-left:.64em;
+    color:rgba(255,255,255,.85);opacity:0;transform:translateY(10px);
+  }
+  .run .subtitle{animation:subIn .85s ease 2.40s forwards}
+  @keyframes subIn{to{opacity:1;transform:translateY(0)}}
+  / ---------- курсор ---------- /
+  .cursor{
+    position:absolute;left:50%;top:50%;z-index:5;
+    width:clamp(28px,3.8vw,52px);height:clamp(28px,3.8vw,52px);
+    opacity:0;pointer-events:none;
+    filter:drop-shadow(0 6px 14px rgba(120,30,0,.55));
+    animation:cursorMove 1.05s cubic-bezier(.3,.85,.25,1) .2s forwards,
+              cursorOut .5s ease 2.70s forwards;
+  }
+  @keyframes cursorMove{
+    0%{opacity:0;transform:translate(42vw,34vh) scale(.65)}
+    18%{opacity:1}
+    78%{transform:translate(-4px,-4px) scale(1.06)}
+    100%{opacity:1;transform:translate(0,0) scale(1)}
+  }
+  @keyframes cursorOut{
+    to{opacity:0;transform:translate(0,0) scale(.86)}
+  }
+
+  / ---------- волны от клика ---------- /
+  .ring{
+    position:absolute;left:50%;top:50%;z-index:4;border-radius:50%;
+    border:clamp(2px,.35vw,4px) solid rgba(255,255,255,.95);
+    width:clamp(70px,9vw,140px);height:clamp(70px,9vw,140px);
+    margin:calc(clamp(70px,9vw,140px) / -2) 0 0
+           calc(clamp(70px,9vw,140px) / -2);
+    opacity:0;pointer-events:none;
+  }
+  .run .ring{animation:ripple 1.1s cubic-bezier(.15,.7,.3,1) forwards}
+  .run .ring.r2{animation-delay:1.18s;animation-duration:1.25s}
+  .run .ring.r1{animation-delay:1.18s}
+  @keyframes ripple{
+    0%{opacity:.95;transform:scale(.25)}
+    100%{opacity:0;transform:scale(4.4)}
+  }
+
+  .flash{
+    position:absolute;inset:0;z-index:3;background:#fff;opacity:0;
+    pointer-events:none;mix-blend-mode:screen;
+  }
+  .run .flash{animation:flash .42s ease-out 1.18s forwards}
+  @keyframes flash{0%{opacity:0}18%{opacity:.5}100%{opacity:0}}
+
+  / ---------- блик ---------- */
+  .shine{
+    position:absolute;top:-30%;left:0;width:32%;height:160%;z-index:6;
+    pointer-events:none;filter:blur(24px);opacity:0;
+    background:linear-gradient(100deg,
+      rgba(255,255,255,0) 0%,
+      rgba(255,255,255,.18) 45%,
+      rgba(255,255,255,.55) 50%,
+      rgba(255,255,255,.18) 55%,
+      rgba(255,255,255,0) 100%);
+  }
+  .run .shine{animation:skate 1.6s ease-in-out 2.90s forwards}
+  @keyframes skate{
+    0%{opacity:0;transform:translateX(-45vw) rotate(9deg)}
+    22%{opacity:1}
+    82%{opacity:.85}
+    100%{opacity:0;transform:translateX(145vw) rotate(9deg)}
+  }
+</style>
+</head>
+<body>
+  <div class="stage" id="stage">
+    <div class="glow"></div>
+    <div class="vignette"></div>
+
+    <div class="content">
+      <div class="logo">
+        <span>C</span><span>L</span><span>I</span><span>C</span><span>K</span>
+      </div>
+      <div class="divider"></div>
+      <div class="subtitle">телеканал</div>
+    </div>
+
+    <div class="ring r1"></div>
+    <div class="ring r2"></div>
+    <div class="flash"></div>
+
+    <svg class="cursor" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M3 2 L3 19 L7.6 14.7 L10.7 21.6 L13.7 20.2 L10.6 13.4 L17.2 13.4 Z"
+            fill="#ffffff" stroke="#ff6000" stroke-width="1.1"
+            stroke-linejoin="round"/>
+    </svg>
+
+    <div class="shine"></div>
+  </div>
+
+<script>
+  const stage = document.getElementById('stage');
+  const LOOP  = 6800;                 // длина цикла, мс
+
+  function play(){
+    stage.classList.remove('run');
+    void stage.offsetWidth;           // перезапуск анимаций
+    stage.classList.add('run');
+  }
+
+  play();                              // старт при загрузке
+  setInterval(play, LOOP);             // автоцикл
+  stage.addEventListener('click', play);// повтор по клику
+</script>
+</body>
+</html>
