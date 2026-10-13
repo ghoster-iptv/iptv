@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Часы на фоне неба</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            overflow: hidden;
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+
+        /* Небо: градиент от голубого к светлому у горизонта */
+        body {
+            background: linear-gradient(to bottom, #1e6fd9 0%, #4ea8f0 55%, #bfe6ff 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        /* Солнце */
+        .sun {
+            position: absolute;
+            top: 8%;
+            right: 10%;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: radial-gradient(circle, #fff9c4 0%, #ffe066 50%, rgba(255, 224, 102, 0) 70%);
+            box-shadow: 0 0 80px 30px rgba(255, 230, 120, 0.6);
+            animation: pulse 6s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.08); }
+        }
+
+        /* Облака */
+        .cloud {
+            position: absolute;
+            background: #fff;
+            border-radius: 100px;
+            opacity: 0.85;
+            filter: blur(1px);
+            animation: drift linear infinite;
+        }
+
+        .cloud::before,
+        .cloud::after {
+            content: "";
+            position: absolute;
+            background: #fff;
+            border-radius: 50%;
+        }
+
+        .cloud::before {
+            width: 50%;
+            height: 160%;
+            top: -60%;
+            left: 15%;
+        }
+
+        .cloud::after {
+            width: 40%;
+            height: 130%;
+            top: -40%;
+            right: 15%;
+        }
+
+        .cloud.c1 { width: 180px; height: 50px; top: 15%; animation-duration: 60s; }
+        .c
+      
