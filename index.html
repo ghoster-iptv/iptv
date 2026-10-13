@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 Часы</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #141e30, #243b55);
+      color: #fff;
+      transition: 0.3s;
+    }
+
+    body.light {
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      color: #222;
+    }
+
+    .clock-container {
+      width: min(90%, 600px);
+      padding: 45px 25px;
+      text-align: center;
+      border-radius: 25px;
+      background: rgba(255, 255, 255, 0.12);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      margin: 0 0 25px;
+      font-size: 28px;
+      font-weight: normal;
+    }
+
+    .time {
+      font-size: clamp(48px, 12vw, 100px);
+      font-weight: bold;
+      letter-spacing: 5px;
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    }
+
+    .date {
+      margin-top: 15px;
+      font-size: 20px;
+      opacity: 0.85;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 12px 22px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 16px;
+      color: #fff;
+      background: #007bff;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #0056b3;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="clock-container">
+    <h1>Текущие время и дата</h1>
+
+    <div id="time" class="time">00:00:00</div>
+    <div id="date" class="date">Загрузка...</div>
+
+    <button id="themeButton">Сменить тему</button>
+  </main>
+
+  <script>
+    const timeElement = document.getElementById("time");
+    const dateElement = document.getElementById("date");
+    const themeButton = document.getElementById("themeButton");
+
+    function updateClock() {
+      const now = new Date();
+
+      const time = now.toLocaleTimeString("ru-RU", {
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit"
+      });
+
+      const date = now.toLocaleDateString("ru-RU", {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+      });
+
+      timeElement.textContent = time;
+      dateElement.textContent =
+        date.charAt(0).toUpperCase() + date.slice(1);
+    }
+
+    themeButton.addEventListener("click", () => {
+      document.body.classList.toggle("light");
+
+      themeButton.textContent = document.body.classList.contains("light")
+        ? "Тёмная тема"
+        : "Светлая тема";
+    });
+
+    updateClock();
+    setInterval(updateClock, 1000);
+  </script>
+</body>
+</html>
