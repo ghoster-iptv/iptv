@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1, ICOM камера плотина на трассу
 https://nvr.icom.net.ru/plotina.trassa-13d462bfee/index.m3u8?token=PPzbzil6nMvk9E9Y9v3jpjNG
+#EXTINF:-1, ICOM камера плотина на Двуреченск
+https://nvr.icom.net.ru/plotina.na.dvurechensk-b78ca0b90a/index.m3u8?token=JLggAUL4RqgcSMWhog8GTKNQ
